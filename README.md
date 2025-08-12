@@ -1,2 +1,1 @@
-# AVC ( All vehicle controller)
-AVC is an opensourced controller for all vehicle. The board will be a stack containing the main board and a power distrubution board.
+AVC is an open-source controller for all vehicles. The board will only contain the main board. The board gives users the option to connect a cable to an ESC board of their choice. The board's code will be made by me sometime. But users can create their own code for the flight controller and ground station. AVC uses the STM32H743ZIT6 as the main controller and a dual ATSAMD21 for Navigation and Telemetry. It also houses a NEO-M9N-00B for GPS, a BMI330 as the IMU, and the BMP388 for air pressure testing and altitude measurement. 
